@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url('../images/travel.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 960px;
+  height: 100%;
+  background-color: pink;
+  box-sizing: border-box;
+  margin: 2.5% auto;
+  opacity: 0.7;
+}
+
+#sub-wrapper {
+  position: relative;
+  top: 15%;
+}
+
+button {
+  display: block;
+  width: 50%;
+  height: 20%;
+  margin: 0 auto;
+  font-size: 42px;
+  font-family: 'Coming Soon', cursive;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+img {
+  height: 200px;
+}
+
+h1 {
+  padding-top: 2.5%;
+  font-family: 'Coming Soon', cursive;
+  font-size: 6.5em;
+  font-weight: bold;
+  color: navy;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 35px;
+  color: navy;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 25px;
+  color: navy;
+}
+
+#start {
+  margin-top: 10%;
+  background: navy;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Coming Soon', cursive;
+}
+
+button:hover {
+  background: pink;
+  border: 2px solid white;
+  color: navy;
+}
+#start-over {
+  font-family: 'Coming Soon', cursive;
+  color: navy;
+}
